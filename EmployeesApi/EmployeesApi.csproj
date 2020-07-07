@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>bf9f8663-c3c7-4608-a73b-9c8942d896ab</UserSecretsId>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.VisualStudio.Azure.Containers.Tools.Targets" Version="1.10.9" />
+    <PackageReference Include="Swashbuckle.Aspnetcore" Version="5.5.1" />
+    <PackageReference Include="Swashbuckle.Aspnetcore.annotations" Version="5.5.1" />
+  </ItemGroup>
+
+
+</Project>
